@@ -22,4 +22,5 @@ Route::get('/perfil', 'HomeController@perfil')->name('perfil');
 Route::get('/codigos', 'HomeController@codigos')->name('codigos');
 Route::get('/pagos', 'HomeController@pagos')->name('pago');
 Route::get('/admin/impuestos', 'AdminController@impuestos')->name('admin');
+Route::post('/admin/crear/impuesto', 'AdminController@crearImpuesto')->name('crearimpuesto');
 

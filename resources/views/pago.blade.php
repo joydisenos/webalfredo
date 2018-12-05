@@ -50,7 +50,8 @@
 				total += subtotal;
 				$(this).text(subtotal);
 			});
-			$('.total').text(total);
+				totalImpuesto = parseFloat(cantidad) + parseFloat(total);
+			$('.total').text(totalImpuesto);
 		});
 	});
 </script>
